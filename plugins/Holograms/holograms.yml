@@ -1,0 +1,50 @@
+holograms:
+  h_bienvenue:
+    location: construction;1252.6584691282221;134.0;939.4073478440384;82.20002;-0.150008
+    lines:
+    - Bienvenue %player_name% !
+    - '-'
+    - Pour te connecter à l'éditeur de code
+    - 'tape la commande suivante :'
+    - /js adalink()
+  h_command:
+    location: construction;1247.7491591003948;134.0;934.4119914491404;74.399994;-276.00012
+    lines:
+    - Pour lancer ton code
+    - 'tape la commande :'
+    - /js %player_name%.nom_commande()
+  h_map:
+    location: construction;1252.29842235564;134.0;930.4691023305238;79.80005;177.15009
+    lines:
+    - Pour avoir accès à la carte
+    - 'tape la commande :'
+    - /js adamap()
+  p_adacraft:
+    location: Monde_Source;431.33215164819586;5.0;32.989993048431835;56.99992;-9.15005
+    lines:
+    - Adacraft
+  p_tuba:
+    location: Monde_Source;426.5954554781694;5.0;28.48301185200629;80.24992;94.79993
+    lines:
+    - Tubà Intergenerations
+  go_survie:
+    location: Monde_Source;431.542726804835;5.0;23.95422704052859;63.600006;-183.29996
+    lines:
+    - SurvieCraft
+  p_adacraft_to_source:
+    location: construction;1257.4573372476334;134.0;934.6144419173964;44.85005;267.45007
+    lines:
+    - Monde Source
+  h_bienvenue_survie:
+    location: SurvieCraft;168.47237905638758;114.0;100.5743252893727;87.60001;-178.65007
+    lines:
+    - Bienvenue en mode SURVIE
+    - Bonne chance !!!
+  h_tuba_to_source:
+    location: situation0;113.78504795845842;238.0;12.148719679348389;82.950035;-270.60193
+    lines:
+    - Monde Source
+  h_survie_to_source:
+    location: SurvieCraft;168.4332368886426;114.0;110.90997755307161;64.65005;1.9503174
+    lines:
+    - Monde Source

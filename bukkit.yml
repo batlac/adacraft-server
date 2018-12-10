@@ -13,7 +13,7 @@
 
 
 settings:
-  allow-end: fakse
+  allow-end: false
   warn-on-overload: true
   permissions-file: permissions.yml
   update-folder: update
@@ -23,21 +23,15 @@ settings:
   deprecated-verbose: default
   shutdown-message: Server closed
 spawn-limits:
-  monsters: 20
-  animals: 20
-  water-animals: 20
-  ambient: 20
+  monsters: 30
+  animals: 30
+  water-animals: 30
+  ambient: 30
 chunk-gc:
   period-in-ticks: 600
   load-threshold: 0
 ticks-per:
-  animal-spawns: 10
+  animal-spawns: 400
   monster-spawns: 1
   autosave: 6000
 aliases: now-in-commands.yml
-database:
-  username: bukkit
-  isolation: SERIALIZABLE
-  driver: org.sqlite.JDBC
-  password: walrus
-  url: jdbc:sqlite:{DIR}{NAME}.db

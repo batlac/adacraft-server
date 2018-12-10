@@ -1,0 +1,15 @@
+enabled: true
+worlds:
+  day:
+  - construction
+  - situation0
+  - Monde_Source
+  night: []
+  calm:
+  - construction
+  - situation0
+  - Monde_Source
+  storm: []
+updates:
+  autoupdate: true
+  remind: true
