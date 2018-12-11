@@ -1,0 +1,14 @@
+{
+  "name": "adacraft-ide-auth",
+  "version": "1.0.0",
+  "description": "JWT",
+  "main": "auth.js",
+  "scripts": {
+    "test": "node auth.js"
+  },
+  "author": "blac",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
