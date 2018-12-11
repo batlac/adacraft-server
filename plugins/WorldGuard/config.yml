@@ -50,14 +50,14 @@ use-player-move-event: true
 use-player-teleports: true
 security:
     deop-everyone-on-join: false
-    block-in-game-op-command: false
+    block-in-game-op-command: true
     host-keys-allow-forge-clients: false
 host-keys: {}
 summary-on-start: true
 op-permissions: true
 build-permission-nodes:
     enable: true
-    deny-message: '&eSorry, but you are not permitted to do that here.'
+    deny-message: '&eAction impossible.'
 event-handling:
     block-entity-spawns-with-untraceable-cause: false
     interaction-whitelist: []
@@ -139,8 +139,8 @@ crops:
 weather:
     prevent-lightning-strike-blocks: []
     disable-lightning-strike-fire: false
-    disable-thunderstorm: true
-    disable-weather: true
+    disable-thunderstorm: false
+    disable-weather: false
     disable-pig-zombification: false
     disable-powered-creepers: false
     always-raining: false

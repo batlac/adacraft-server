@@ -1,4 +1,3 @@
 &6Salut, {PLAYER}&6!
-&6Tape &c/warp&6 pour accéder aux autres mondes.
 &6Tape &c/js adalink()&6 pour te connecter à &3Adacraft.
 &6Tape &c/js {PLAYER}&c.nom_code(self)&6 lancer un code &3Adacraft.

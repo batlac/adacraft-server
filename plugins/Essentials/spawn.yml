@@ -6,20 +6,6 @@ spawns:
     z: 2729.160666266065
     yaw: -286.4007
     pitch: 30.499954
-  lyonceau: 
-    world: construction
-    x: 2870.085940640557
-    y: 4.0
-    z: 2729.1537524382074
-    yaw: -287.15082
-    pitch: 33.649952
-  chatounet: 
-    world: construction
-    x: 2870.085940640557
-    y: 4.0
-    z: 2729.1537524382074
-    yaw: -287.15082
-    pitch: 33.649952
   adabuilder: 
     world: construction
     x: 2870.085940640557

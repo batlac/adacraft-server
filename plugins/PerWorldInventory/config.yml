@@ -40,7 +40,7 @@ player:
   # All options for player stats are here:
   stats:
     # Load if a player is able to fly
-    can-fly: true
+    can-fly: false
     # Load the player's display name
     display-name: false
     # Load a player's exhaustion level
@@ -71,7 +71,7 @@ player:
 # Attempt to figure out which world a player last logged off in
 # and save/load the correct data if that world is different.
 # REQUIRES MC 1.9.2 OR NEWER
-load-data-on-join: false
+load-data-on-join: true
 
 # Set the level of debug messages shown by PWI.
 # INFO: Print general messages
